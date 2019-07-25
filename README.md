@@ -3,5 +3,5 @@
 ## Installation
 
 ```
-npm install rxjs-tools --save
+npm install rxjs-andre --save
 ```
