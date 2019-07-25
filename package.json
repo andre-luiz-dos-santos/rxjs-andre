@@ -1,0 +1,37 @@
+{
+  "name": "rxjs-tools",
+  "version": "1.0.0",
+  "description": "RxJS tools",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "github:andre-luiz-dos-santos/rxjs-tools",
+  "scripts": {
+    "prepublishOnly": "rimraf ./dist && tsc",
+    "dev": "rimraf ./dist && tsc --watch",
+    "test": "jest"
+  },
+  "keywords": [
+    "rxjs",
+    "splitString",
+    "auditMap",
+    "spawnStdout",
+    "fromStream",
+    "pause$"
+  ],
+  "author": "André Luiz dos Santos <andre@fastville.com.br>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/debug": "^4.1.4",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
+    "jest": "^24.8.0",
+    "jest-marbles": "^2.4.0",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "rxjs": "^6.5.2"
+  }
+}
