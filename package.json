@@ -1,6 +1,6 @@
 {
   "name": "rxjs-andre",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "RxJS tools",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,12 +29,12 @@
     "jest": "^24.8.0",
     "jest-marbles": "^2.4.0",
     "rimraf": "^2.6.3",
+    "rxjs-marbles": "^5.0.2",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   },
   "dependencies": {
     "debug": "^4.1.1",
-    "rxjs": "^6.5.2",
-    "rxjs-marbles": "^5.0.2"
+    "rxjs": "^6.5.2"
   }
 }
