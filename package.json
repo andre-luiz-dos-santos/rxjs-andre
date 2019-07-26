@@ -16,6 +16,8 @@
     "auditMap",
     "spawnStdout",
     "fromStream",
+    "mergeMapCount",
+    "mergeMapPause",
     "pause$"
   ],
   "author": "André Luiz dos Santos <andre@fastville.com.br>",
@@ -32,6 +34,7 @@
   },
   "dependencies": {
     "debug": "^4.1.1",
-    "rxjs": "^6.5.2"
+    "rxjs": "^6.5.2",
+    "rxjs-marbles": "^5.0.2"
   }
 }
