@@ -1,8 +1,8 @@
 import { createReadStream } from "fs";
 import { Subject, timer } from "rxjs";
 import { map, mapTo } from "rxjs/operators";
-import { fromStream } from "../src/fromStream";
-import { mergeMapPause } from "../src/mergeMapPause";
+import { fromStream } from "../fromStream";
+import { mergeMapPause } from "../mergeMapPause";
 
 let pause$ = new Subject<boolean>();
 let buffers = new Set<number>();
